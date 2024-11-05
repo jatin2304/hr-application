@@ -1,0 +1,5 @@
+apply plugin: 'java'
+dependencies
+{
+implementation files('../dl/dist/dljar1.jar', '../common/dist/hr_common.jar')
+}
